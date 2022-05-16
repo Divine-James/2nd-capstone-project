@@ -2,11 +2,9 @@ const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 const form = document.getElementById('form');
 const userName = document.getElementById('username');
-const email = document.getElementById('email');
-const number = document.getElementById('number');
+
 const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
-const gender = document.getElementById('gender');
 const state = false;
 
 
@@ -18,7 +16,7 @@ hamburger.addEventListener('click', ()=>{
 document.querySelectorAll(".nav-link").forEach(n=> n.addEventListener('click', ()=>{
     hamburger.classList.remove("active")
     navMenu.classList.remove("active")
-}))
+}));
 
 function toggle(){
     if(state){
@@ -28,6 +26,17 @@ function toggle(){
     }else{
         document.getElementById('password').setAttribute('type','text');
         document.getElementById('eye').style.color ="#5887ef";
+        state = true;
+    }
+}
+function toggle(){
+    if(state){
+        document.getElementById('password2').setAttribute('type','password');
+        document.getElementById('eye2').style.color ="#7a797e";
+        state = false;
+    }else{
+        document.getElementById('password2').setAttribute('type','text');
+        document.getElementById('eye2').style.color ="#5887ef";
         state = true;
     }
 }
@@ -56,8 +65,6 @@ const setSucess = element =>{
 
 const validateInputs = () =>{
     const usernameValue = username.value.trim();
-    const emailValue = email.value.trim();
-    const numberValue = number.value.trim();
     const passwordValue = password.value.trim();
     const password2Value = password2.value.trim();
 
