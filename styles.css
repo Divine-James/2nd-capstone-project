@@ -156,16 +156,16 @@ a{
     }
     .span{
         position: absolute;
-        left: 28rem;
+        right: 2rem;
         transform: translate(0, -50%);
         top: 84%;
         cursor: pointer;
     }
     .span2{
         position: absolute;
-        left: 28rem;
+        right: 2rem;
         transform: translate(0, -50%);
-        top: 97%;
+        top: 85%;
         cursor: pointer;
     }
 }
