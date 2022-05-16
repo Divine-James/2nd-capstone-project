@@ -154,6 +154,9 @@ a{
         left: 0;
 
     }
+    .form-group{
+        width: 100%;
+    }
     .span{
         position: absolute;
         right: 2rem;
