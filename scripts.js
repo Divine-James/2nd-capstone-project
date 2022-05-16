@@ -7,6 +7,7 @@ const number = document.getElementById('number');
 const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
 const gender = document.getElementById('gender');
+const state = false;
 
 
 hamburger.addEventListener('click', ()=>{
@@ -19,7 +20,17 @@ document.querySelectorAll(".nav-link").forEach(n=> n.addEventListener('click', (
     navMenu.classList.remove("active")
 }))
 
-
+function toggle(){
+    if(state){
+        document.getElementById('password').setAttribute('type','password');
+        document.getElementById('eye').style.color ="#7a797e";
+        state = false;
+    }else{
+        document.getElementById('password').setAttribute('type','text');
+        document.getElementById('eye').style.color ="#5887ef";
+        state = true;
+    }
+}
 form.addEventListener('submit', e => {
     e.preventDefault();
     
