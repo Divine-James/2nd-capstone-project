@@ -19,6 +19,7 @@ document.querySelectorAll(".nav-link").forEach(n=> n.addEventListener('click', (
 }));
 
 function toggle(){
+  
     if(state){
         document.getElementById('password').setAttribute('type','password');
         document.getElementById('eye').style.color ="#7a797e";
@@ -29,7 +30,7 @@ function toggle(){
         state = true;
     }
 }
-function toggle(){
+function togglepw(){
     if(state){
         document.getElementById('password2').setAttribute('type','password');
         document.getElementById('eye2').style.color ="#7a797e";
