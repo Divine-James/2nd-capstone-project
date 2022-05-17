@@ -1,7 +1,9 @@
-# WEEK 5 React Capstone Project
-This is team-111 2nd capstone project. we used html, css and javascript to create asimple web-page  containing a responsive nav bar and also a form with various inputs and an eye icon to hide and show password in the password and confirm password input. the main goal of the project is to check our understanding of what we have learnt in the past few weeks at side-hustle under Front-end (html, css and javascript).
+# WEEK 5 Frontend Capstone Project
+This is team-111 2nd capstone project. we used html, css and javascript to create a simple web-page  containing a responsive nav bar and also a form with various inputs and an eye icon to hide and show password in the password and confirm password input. the main goal of the project is to check our understanding of what we have learnt in the past few weeks at side-hustle under Front-end (html, css and javascript).
 
 you can find and test our live link here -> https://team-111-2nd-capstone-project.netlify.app 
+
+Clone this git repo using the **git clone command**; https://github.com/Divine-James/2nd-capstone-project.git;
 
 
 # Names and Intern id of Particpants/Contributors
